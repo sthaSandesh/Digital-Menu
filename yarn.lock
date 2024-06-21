@@ -3021,6 +3021,7 @@ __metadata:
     react-dom: "npm:^18"
     react-flying-item: "npm:^1.1.2"
     react-hot-toast: "npm:^2.4.1"
+    react-icons: "npm:^5.2.1"
     stripe: "npm:^14.3.0"
     tailwindcss: "npm:^3"
     typescript: "npm:5.2.2"
@@ -4979,6 +4980,15 @@ __metadata:
     react: ">=16"
     react-dom: ">=16"
   checksum: 591ecec3c6adc1cdb70f00165a57baa3d7f75d0d30fa767213c36496bdcc6be2b2e6a3edbf7c04f7d726a1b17dcfb5e7feb2136b04b17c9ccb769894b970f365
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:^5.2.1":
+  version: 5.2.1
+  resolution: "react-icons@npm:5.2.1"
+  peerDependencies:
+    react: "*"
+  checksum: 9d52b975afaf27dab07dcaefd50497ba43cc57076fc26ccac5142965e01c7fd0c503a62ea31c3bb710e0b2959a4620c2fed12c3c86960ad8ceb63de7f0085f3a
   languageName: node
   linkType: hard
 
