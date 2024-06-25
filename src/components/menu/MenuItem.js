@@ -117,7 +117,7 @@ export default function MenuItem(menuItem) {
                   className="primary sticky bottom-2"
                   onClick={handleAddToCartButtonClick}
                 >
-                  Add to cart ${selectedPrice}
+                  Add to cart Rs.{selectedPrice}
                 </div>
               </FlyingButton>
               <button className="mt-2" onClick={() => setShowPopup(false)}>
