@@ -21,7 +21,11 @@ export default function RootLayout({ children }) {
             <Header />
             {children}
             <footer className="border-t p-8 text-center text-gray-500 mt-16">
-              &copy; 2023 All rights reserved
+              &copy; 2024 All rights reserved. <br />
+              By <span className="text-green-400 font-semibold">
+                Sandesh
+              </span> &{" "}
+              <span className="text-blue-500 font-semibold">Sagar</span>
             </footer>
           </AppProvider>
         </main>
