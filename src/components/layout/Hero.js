@@ -30,7 +30,7 @@ export default function Hero() {
       </div>
       <div className="relative hidden md:block">
         <Image
-          src={"/pizza.png"}
+          src={"/hero-momo.png"}
           layout={"fill"}
           objectFit={"contain"}
           alt={"pizza"}

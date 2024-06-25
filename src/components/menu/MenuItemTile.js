@@ -14,7 +14,10 @@ export default function MenuItemTile({ onAddToCart, ...item }) {
       <div className="text-center">
         <Image
           src={image}
-          className="max-h-auto max-h-24 block mx-auto"
+          className="block mx-auto"
+          // max-h-auto max-h-24 removed from className
+          width={200}
+          height={200}
           alt="pizza"
         />
         {/* img change into next image */}
@@ -30,3 +33,4 @@ export default function MenuItemTile({ onAddToCart, ...item }) {
     </div>
   );
 }
+

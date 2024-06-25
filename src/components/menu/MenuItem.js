@@ -86,7 +86,7 @@ export default function MenuItem(menuItem) {
                         checked={selectedSize?.name === size.name}
                         name="size"
                       />
-                      {size.name} ${basePrice + size.price}
+                      {size.name} Rs. {basePrice + size.price}
                     </label>
                   ))}
                 </div>
@@ -107,7 +107,7 @@ export default function MenuItem(menuItem) {
                           .includes(extraThing._id)}
                         name={extraThing.name}
                       />
-                      {extraThing.name} +${extraThing.price}
+                      {extraThing.name} +Rs. {extraThing.price}
                     </label>
                   ))}
                 </div>
@@ -131,3 +131,4 @@ export default function MenuItem(menuItem) {
     </>
   );
 }
+
