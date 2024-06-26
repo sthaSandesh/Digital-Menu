@@ -18,7 +18,7 @@ export default function MenuItemTile({ onAddToCart, ...item }) {
           // max-h-auto max-h-24 removed from className
           width={200}
           height={200}
-          alt="pizza"
+          alt="foodimg"
         />
         {/* img change into next image */}
       </div>
